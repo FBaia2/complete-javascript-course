@@ -35,32 +35,50 @@
 // x ++;
 // console.log(x)
 
-const markHeight = 169;
-const markWeight = 78;
-const johnHeight = 195;
-const johnWeight = 92;
-
-bmiJohn = johnWeight / (johnHeight ** 2);
-bmiMark = markWeight / (markHeight ** 2);
-
-const markHigherBMI = bmiMark > bmiJohn;
-
-console.log(markHigherBMI)
 
 
+// const jonasNew = `I'm ${markHeight}` 
+// console.log(jonasNew)
+
+// console.log(`this
+// is
+// sparta`)
 
 
-
-
-
-
-
+// const age = 5;
+// const isOldEnough = age >= 18;
+// if(isOldEnough) {
+//     console.log("old enought to drive 😘😍😒")
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`not old enoug wait another ${yearsLeft} years`)
+// }
 
 
 
 
+// const markHeight = 169;
+// const markWeight = 78;
+// const johnHeight = 195;
+// const johnWeight = 92;
+
+// bmiJohn = johnWeight / (johnHeight ** 2);
+// bmiMark = markWeight / (markHeight ** 2);
+
+// const markHigherBMI = bmiMark > bmiJohn;
+
+// console.log(markHigherBMI)
 
 
+// if (markHigherBMI) {
+//     console.log(`Mark's BMI is higher than John's!`)
+// } else {
+//     console.log(`John's BMI is higher than Mark's!`)
+// }
+
+
+const input = 0;
+console.log((typeof(String(input))))
 
 
 
