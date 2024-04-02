@@ -77,16 +77,35 @@
 // }
 
 
-const input = 0;
-console.log((typeof(String(input))))
+// const input = 0;
+// console.log((typeof(String(input))))
 
 
+// const favourite = prompt("this is sparta")
 
 
+const DolphinsScores = [100,100,100];
+let sumD = 0;
+const KoalasScores = [100,100,100];
+let sumK = 0;
 
+for(let i = 0; i < DolphinsScores.length; i++) {
+    sumD += DolphinsScores[i]
+    sumK += KoalasScores[i]          
+}
 
+const avgD = sumD / DolphinsScores.length;
+const avgK = sumK / KoalasScores.length;
 
+console.log(avgD, avgK)
 
+if (avgD > avgK && avgD >= 100) {
+    console.log(`the winner is Dolphins with ${avgD} points!`)
+} else if (avgK > avgD && avgK >= 100) {
+    console.log(`the winner is Koalas with ${avgK} points!`)
+} else if (avgD === avgK && avgD >= 100) {
+    console.log("it's a tie and they won both")
+}
 
 
 
