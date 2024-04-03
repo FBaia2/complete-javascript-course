@@ -111,40 +111,59 @@
 
 
 
-const day = "wednesday"
+
+// day === "monday" ? console.log("this is sparta") : console.log("this is not sparta");
 
 
 
-if (day === "monday") {
-    console.log("Plan course structure")
-    console.log("Go to coding meetup")
-} else if (day === "tuesday") {
-    console.log("Prepar theory videos")
-} else if (day === "wednesday" || day === "thursday") {
-    console.log("whrite code examples")
-}else if (day === "saturday" || day === "sunday") {
-    console.log("enjoy the weekend")
-} else {
-    console.log("Not a valid day!")
-}
+// if (day === "monday") {
+//     console.log("Plan course structure")
+//     console.log("Go to coding meetup")
+// } else if (day === "tuesday") {
+//     console.log("Prepar theory videos")
+// } else if (day === "wednesday" || day === "thursday") {
+//     console.log("whrite code examples")
+// }else if (day === "saturday" || day === "sunday") {
+//     console.log("enjoy the weekend")
+// } else {
+//     console.log("Not a valid day!")
+// }
 
 
-switch(day) {
-    case "monday":
-        console.log("Plan course structure")
-        console.log("Go to coding meetup")
-        break
-    case "tuesday":
-        console.log("Prepar theory videos")
-        break
-    case "wednesday":
-    case "thursday" :
-        console.log("whrite code examples")
-        break
-    case "saturday" :
-    case "sunday" :
-        console.log("enjoy the weekend")
-        break
-    default:
-        console.log("Not a valid day!")
-}
+// switch(day) {
+//     case "monday":
+//         console.log("Plan course structure")
+//         console.log("Go to coding meetup")
+//         break
+//     case "tuesday":
+//         console.log("Prepar theory videos")
+//         break
+//     case "wednesday":
+//     case "thursday" :
+//         console.log("whrite code examples")
+//         break
+//     case "saturday" :
+//     case "sunday" :
+//         console.log("enjoy the weekend")
+//         break
+//     default:
+//         console.log("Not a valid day!")
+// }
+
+// const day = "wednesday"
+
+// const age = 18;
+// const caoRaivoso = 20
+
+// const drink = age >= 18 ? caoRaivoso === 18 ? "bigBootyLatinas" : "dj8": "why you gay?";
+// console.log(drink)
+
+
+// const bill1 = 430 
+
+// bill1 <= 300 && bill1 >= 50 ? console.log(`The bill was ${bill1}, the tip was ${bill1 * 0.15}, and the total value ${(bill1 * 0.15)+ bill1}`) : 
+// console.log(`The bill was ${bill1}, the tip was ${bill1 * 0.2}, and the total value ${(bill1 * 0.2)+ bill1}`)
+
+// const bill2 = 40;
+// const bill3 = 430;
+
