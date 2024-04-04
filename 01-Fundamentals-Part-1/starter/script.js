@@ -1,3 +1,6 @@
+"use strict";
+
+
 // let js = "amazing";
 // console.log(40 + 30);
 // console.log(23)
@@ -166,4 +169,43 @@
 
 // const bill2 = 40;
 // const bill3 = 430;
+
+// const country = "Portugal";
+// const continent = "EU";
+// let population = 11000000;
+
+// const isIsland = false;
+// let language;
+// language = "Português";
+
+// console.log(isIsland, country, population, language)
+
+// const halfPop = population/2;
+// console.log(halfPop);
+// population ++;
+// console.log(population);
+// const finlandPop = 5000000;
+// const portugalVsFin = population > finlandPop
+// console.log(portugalVsFin);
+// const portugalVsAVG = population > 33000000
+// console.log(portugalVsAVG);
+// const description = `${country} is in ${continent}, and its ${population} million people speal ${language}`;
+// console.log(description)
+
+
+
+
+
+// if (population > 33000000) {
+//     console.log(`${country} population is above average`)
+// } else {
+//     console.log(`${country} population is ${33000000 - population} bellow average`)
+// }
+
+
+// console.log("9" + "5") // correct
+// console.log("19" - "13" + "17") // correct
+// console.log("19" - "13" + 17) // correct
+// console.log("123" > 57); //correct
+
 
