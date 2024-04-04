@@ -170,13 +170,13 @@
 // const bill2 = 40;
 // const bill3 = 430;
 
-// const country = "Portugal";
-// const continent = "EU";
-// let population = 11000000;
+const country = "Portugal";
+const continent = "EU";
+let population = 11000000;
 
-// const isIsland = false;
-// let language;
-// language = "Português";
+const isIsland = false;
+let language;
+language = "Português";
 
 // console.log(isIsland, country, population, language)
 
@@ -209,3 +209,44 @@
 // console.log("123" > 57); //correct
 
 
+// const numNeighbours = 1;
+// if (numNeighbours === 1) {
+//     console.log("Only 1 border!")
+// } else if(numNeighbours > 1) {
+//     console.log("'More than 1 border")
+// } else {
+//     console.log("No borders")
+// }
+
+
+// if ( language === "English" && population < "50" && isIsland === false) {
+//     console.log(`you should live in ${country}`)
+// } else {
+//     console.log(`you should live in ${country}`)
+// }
+
+// switch(language){
+//     case "mandarin":
+//     case "chinese":
+//         console.log('MOST number of native speakers!');
+//         break
+//     case "spanish":
+//         console.log( '2nd place in number of native speakers')
+//         break
+//     case "english":
+//         console.log('3rd place')
+//         break
+//     case "hindi":
+//         console.log("Number 4")
+//         break
+//     case "arabic":
+//         console.log("5th most spoken language")
+//     default:
+//         console.log("Great language too :D'")
+    
+// }
+
+// population > 33000000 ? 
+// console.log("Portugal's population is above average") :
+// console.log("Portugal's population is below average");
+    
